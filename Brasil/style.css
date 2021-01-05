@@ -1,0 +1,41 @@
+.historia{
+    width: auto;
+    height: 80%;
+    padding: 15px;
+    border: solid 0.5px #eee2e2;
+    box-shadow:  0px 0.5px 5px rgb(48, 48, 59);
+}
+
+.titulo-historia{
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-historia h1{
+    font-size: 40px;
+    text-shadow: 0px 0.5px 3px rgb(48, 48, 59);;
+}
+
+.galeria-brasil{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-fotos{
+    width: 30%;
+    margin: 10px 10px;
+    box-shadow: 1px 1px 7px rgb(48, 48, 59) ;
+}
+
+#btn-brasil{
+    margin: 10px;
+    background-color: rgb(44, 180, 62);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+}

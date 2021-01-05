@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --body-background-light: rgb(255, 255, 255);
+    --body-background-dark: rgb(123, 114, 131);
+    --header-background-light: rgb(255, 255, 255);
+    --header-background-dark: rgb(40,42,54);
+    /* --color-light: rgb(79, 79, 95);
+    --color-dark: rgb(189,147,249); */
+  }
+
+.light{
+      background-color: var(--body-background-light);
+  }
+
+.dark{
+     background-color: var(--body-background-dark); 
+     color: var(--color);
+  }
+
+/* body {
+    /* background-color: rgb(255, 255, 255);
+} */
+
+header {
+    padding: 8px;
+    align-items: center;
+    width: auto;
+    border-bottom: solid 1px #eee2e2;
+    box-shadow: 0px 0.5px 3px rgb(79, 79, 95);
+}
+
+.light-header{
+    background-color:var(--header-background-light);
+
+}
+.dark-header{
+    background-color:var(--header-background-dark);
+    
+}
+#nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-menu{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgb(79, 79, 95);
+}
+
+.icon-img{
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 20px;
+
+}
+
+.icon-matheus{
+    width:25px;
+    height:25px;
+    margin: 0px 10px;
+    border-radius: 12.5px;
+}
+
+#main{
+    width: auto;
+    height: 100%;
+    padding: 60px;
+}
+
+.img-search{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+}
+
+.img{
+    width: 25%;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+#textfield {
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+
+.mdl-textfield__input{
+    align-self: center;
+    width: 600px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.material-icons{
+    color: black;
+    /* style: pointer; */
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#btn-azar{
+    border-radius: 5px;
+    background-color: #62b7fc;
+    color: white;
+    transition: 0.4s;
+}
+
+#btn-azar:hover{
+    background-color: #001c33ea;
+    color: #5bbdff;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+.footer{
+    background-color: rgb(40,42,54);
+    padding: 25px 15px;
+    
+}
+
+.br-footer a{
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-listas{
+    display:flex;
+    justify-content: space-between;
+    /* padding:20px; */
+}
+
+.container-listas ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.container-listas ul li a{
+    text-decoration: none;
+    padding-right:10px;
+    color: white;
+}
