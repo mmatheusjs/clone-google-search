@@ -122,18 +122,18 @@ header {
 }
 
 #btn-azar{
-    border-radius: 5px;
-    background-color: #62b7fc;
-    color: white;
-    transition: 0.4s;
+    background-color: rgb(66, 41, 83);
+    color: rgb(204, 163, 231);
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 #btn-azar:hover{
-    background-color: #001c33ea;
-    color: #5bbdff;
-    font-weight: bold;
-    transform: scale(1.01);
+    background-color: rgb(204, 163, 231);
+    color:rgb(66, 41, 83);
+    transition: 0.3s;
 }
+
 
 .footer{
     background-color: rgb(40,42,54);

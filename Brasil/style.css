@@ -35,8 +35,13 @@
 
 #btn-brasil{
     margin: 10px;
-    background-color: rgb(44, 180, 62);
-    color: rgb(255, 255, 255);
+    background-color: rgb(66, 41, 83);
+    color: rgb(204, 163, 231);
     font-weight: bold;
-    transition: 0.3s;
+}
+
+#btn-brasil:hover{
+    background-color: rgb(204, 163, 231);
+    color:rgb(66, 41, 83);
+    transition: 0.3s;  
 }
