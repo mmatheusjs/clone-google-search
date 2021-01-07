@@ -8,10 +8,14 @@
     --body-background-dark: rgb(123, 114, 131);
     --header-background-light: rgb(255, 255, 255);
     --header-background-dark: rgb(40,42,54);
-    /* --color-light: rgb(79, 79, 95);
-    --color-dark: rgb(189,147,249); */
+    --color-light: rgb(79, 79, 95);
+    --color-dark: rgb(189,147,249);
   }
 
+  /* a{
+      color:var(--color-light) !important;
+  } */
+  
 .light{
       background-color: var(--body-background-light);
   }
@@ -56,7 +60,13 @@ header {
 .nav-menu{
     margin: 0px 10px;
     text-decoration: none;
-    color: rgb(79, 79, 95);
+}
+
+.light-a{
+    color:var(--color-light);
+}
+.dark-a{
+    color:var(--color-dark);
 }
 
 .icon-img{
@@ -145,7 +155,7 @@ header {
 .container-listas{
     display:flex;
     justify-content: space-between;
-    /* padding:20px; */
+    
 }
 
 .container-listas ul{
