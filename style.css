@@ -12,11 +12,7 @@
     --color-dark: rgb(189,147,249);
   }
 
-  /* a{
-      color:var(--color-light) !important;
-  } */
-  
-.light{
+ .light{
       background-color: var(--body-background-light);
   }
 
@@ -111,7 +107,8 @@ header {
 }
 
 .material-icons{
-    color: black;
+    color: rgb(69, 151, 228);
+    text-decoration: none;
     /* style: pointer; */
 }
 
